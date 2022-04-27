@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-lit-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 .",
+    "lint": "eslint *.js",
+    "analyzer": "lit-analyzer *.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-plugin-lit": "^1.6.1",
+    "http-server": "^14.1.0",
+    "lit-analyzer": "^1.2.1"
+  }
+}
